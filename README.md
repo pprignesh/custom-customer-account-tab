@@ -1,7 +1,7 @@
-# custom-customer-account-tab
+# custom-customer-account-tab For Magento2
 The default Magento 2 store redirects the user to the “My Account” section after sign up or log in. Using our module you can add a new custom tab to a customer account.
 
-How to install
+# How to install
 
 Download the latest version here
 
@@ -12,7 +12,7 @@ Download the latest version here
 - php bin/magento setup:upgrade
 - php bin/magento setup:static-content:deploy
 
-Configuration
+# Configuration
 
 To enable our module log to your Magento Admin and go to:
 Stores > Configuration > Getwaysolution > My Account Document Tab Settings
