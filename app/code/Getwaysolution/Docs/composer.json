@@ -1,0 +1,22 @@
+{
+    "name": "getwaysolution/module-docs",
+    "description": "GetwaySolution(www.getwaysolution.com)",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Getwaysolution\\Docs\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

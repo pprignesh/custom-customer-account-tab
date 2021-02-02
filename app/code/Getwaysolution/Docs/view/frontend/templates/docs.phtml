@@ -1,0 +1,23 @@
+<?php
+
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$customerSession = $objectManager->create('Magento\Customer\Model\Session');
+$storeManager = $objectManager->get('\Magento\Store\Model\StoreManagerInterface');
+
+if ($customerSession->isLoggedIn()) {
+
+//Get current group
+$customerGroupId = $customerSession->getCustomer()->getGroupId();
+if ($customerGroupId == '14' || $customerGroupId == '15' || $customerGroupId == '16' || $customerGroupId == '17' || $customerGroupId == '18' || $customerGroupId == '19' ) {
+
+    
+    echo $this->getLayout()
+->createBlock('Magento\Cms\Block\Block')
+->setBlockId('custom_account_tab')
+->toHtml();
+    
+}
+   }
+
+
+?>
