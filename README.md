@@ -19,6 +19,7 @@ Stores > Configuration > Getwaysolution > My Account Document Tab Settings
 
 <img src ="http://www.getwaysolution.com/wp-content/uploads/2021/01/custom_tab.png" />
 
+- Add static block with the identifier "custom_account_tab" and add your needed content.
 
 If you have any query or question contact me by email: prignesh@getwaysolution.com  
 
